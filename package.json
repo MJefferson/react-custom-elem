@@ -2,7 +2,7 @@
   "name": "@wcd/MJefferson.elements-martial-fork-kllcsbj1",
   "version": "1.5.0",
   "description": "Convert react components to native Web Components.",
-  "main": "elements-martial",
+  "main": "dist/index.js",
   "dependencies": {
     source: "unpkg",
     minify: false
