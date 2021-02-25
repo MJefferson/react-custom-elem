@@ -1,4 +1,5 @@
-import "./index.tsx";
+
+// import "../dist/index.js";
 import { html } from "lit-html";
 
 export default {

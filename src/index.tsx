@@ -37,6 +37,7 @@ export default class ElementsMartial extends React.Component<Props, State> {
 
     return (
       <div className="my-counter">
+        The Count: 
         <style>{styles}</style>
         <button onClick={() => this.setState({ count: this.state.count - 1 })}>
           -

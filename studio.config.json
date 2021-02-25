@@ -1,0 +1,9 @@
+{
+ "dependencies": {
+  "env": {
+   "NODE_ENV": "development"
+  },
+  "minify": false,
+  "source": "unpkg"
+ }
+}
