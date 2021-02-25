@@ -44,8 +44,7 @@
     "testee": "testee test.html --browsers firefox"
   },
   "repository": {
-    "url": "https://github.com/MJefferson/brodyv2.git",
-    "directory": "packages/elements-martial",
+    "url": "https://github.com/MJefferson/react-custom-elem.git",
     "type": "git"
   },
   "keywords": [
