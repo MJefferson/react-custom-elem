@@ -1,12 +1,7 @@
 {
   "name": "@wcd/MJefferson.elements-martial-fork-kllcsbj1",
-  "version": "1.5.0",
+  "version": "2.0.0",
   "description": "Convert react components to native Web Components.",
-  "main": "dist/index.js",
-  "dependencies": {
-    source: "unpkg",
-    minify: false
-  },
   "devDependencies": {
     "@webcomponents/custom-elements": "^1.2.4",
     "babel-eslint": "^10.1.0",
@@ -25,9 +20,7 @@
     "steal-qunit": "^2.0.0",
     "steal-tools": "^2.2.2",
     "test-saucelabs": "0.0.6",
-    "testee": "^0.9.0",
-    "typescript": "latest",
-    "tslib": "latest"
+    "testee": "^0.9.0"
   },
   "scripts": {
     "build": "node build.js",
