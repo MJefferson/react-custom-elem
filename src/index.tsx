@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import reactToWebComponent from "react-to-webcomponent";
+// import reactToWebComponent from "react-to-webcomponent.js";
 
 interface State {
   count: number;
@@ -11,7 +11,7 @@ export default class ElementsMartial extends React.Component<Props, State> {
   constructor(props) {
     super(props);
     this.state = {
-      count: 0,
+      count: 0
     };
   }
 
@@ -51,7 +51,7 @@ export default class ElementsMartial extends React.Component<Props, State> {
   }
 }
 
-customElements.define(
-  "elements-martial",
-  reactToWebComponent(ElementsMartial, React, ReactDOM)
-);
+// customElements.define(
+//   "elements-martial",
+//   reactToWebComponent(ElementsMartial, React, ReactDOM)
+// );

@@ -1,5 +1,5 @@
 
-// import "../dist/index.js";
+import "./index";
 import { html } from "lit-html";
 
 export default {
